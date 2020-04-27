@@ -1,0 +1,23 @@
+package exp4.nchu17204223.petclinic.model;
+
+public class Person extends BaseEntity {
+
+	protected String firstName;
+	protected String lastName;
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+}
